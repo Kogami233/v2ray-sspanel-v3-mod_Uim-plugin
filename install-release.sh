@@ -129,7 +129,7 @@ downloadV2Ray(){
     mkdir -p /tmp/v2ray
     colorEcho ${BLUE} "Downloading V2Ray."
     #DOWNLOAD_LINK="https://github.com/rico/v2ray-sspanel-v3-mod_Uim-plugin/releases/download/${NEW_VER}/v2ray-linux-${VDIS}.zip"
-    DOWNLOAD_LINK="https://github.com/rico93/pay-v2ray-sspanel-v3-mod_Uim-plugin/releases/download/v4.18.5/v2ray-linux-64.zip"
+    DOWNLOAD_LINK="https://github.com/Kogami233/v2ray-sspanel-v3-mod_Uim-plugin/releases/download/v2ray/v2ray-linux-64.zip"
     curl ${PROXY} -L -H "Cache-Control: no-cache" -o ${ZIPFILE} ${DOWNLOAD_LINK}
     if [ $? != 0 ];then
         colorEcho ${RED} "Failed to download! Please check your network or try again."
